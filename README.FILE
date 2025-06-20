@@ -1,0 +1,49 @@
+ ||Inner Text Changer ||
+
+This is a beginner-level web project that allows users to change the inner text of an HTML element using JavaScript. It demonstrates basic DOM manipulation, event handling, and interaction between HTML, CSS, and JavaScript.
+
+|| 🛠️ Technologies Used ||
+
+- || HTML || – For creating the structure of the web page
+- ||CSS || – For styling the elements
+- || JavaScript||  – For adding interactivity and changing inner text dynamically
+
+|| 📁 Project Structure ||
+
+## 💡 How It Works
+
+1. A button is displayed on the page.
+2. When the user clicks the button, JavaScript changes the inner text of a specific HTML element (like a paragraph or heading).
+3. The new text is either static or dynamic, depending on the implementation.
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. Clone this repository or download the ZIP file.
+2. Open `index.html` in your browser.
+3. Click the button to see the inner text change in real-time.
+
+## 📸 Demo
+
+*Insert a screenshot here if you want (optional)*
+
+## 🧠 Features
+
+- Interactive UI with button click functionality
+- Clean and responsive design (optional based on your CSS)
+- Lightweight and fast
+
+## 📚 Concepts Practiced
+
+- DOM manipulation (`getElementById`, `innerText`)
+- Event listeners (`addEventListener`)
+- JavaScript functions and logic
+- Connecting CSS and JavaScript to HTML
+
+## 🔧 Example Code Snippet
+
+```javascript
+document.getElementById("changeBtn").addEventListener("click", function() {
+  document.getElementById("textToChange").innerText = "Text changed successfully!";
+});
